@@ -23,3 +23,7 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
+
+include_recipe 'thunr_chef_app_db::default'
+include_recipe 'thunr_chef_app_rails::default'
+include_recipe 'thunr_chef_app_web::default'

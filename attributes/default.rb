@@ -1,0 +1,5 @@
+override['thunr-rails']['db']['adapter'] = 'mysql'
+override['thunr-rails']['db']['host'] = 'localhost'
+override['thunr-rails']['db']['database'] = 'thunr-db'
+override['thunr-rails']['db']['username'] = 'thunr-db'
+override['thunr-rails']['db']['password'] = 'changeme'

@@ -1,6 +1,6 @@
   source 'https://rubygems.org'
 
-  gem 'berkshelf'
+  gem "berkshelf"
   gem 'test-kitchen'
   gem 'kitchen-vagrant'
   gem 'rspec'

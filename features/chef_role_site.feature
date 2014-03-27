@@ -8,7 +8,7 @@ Background:
 
   Given I have provisioned the following infrastructure:
   | Server Name         | Operating System    | Version   | Box | Run List         |
-  | thunr_chef_role_site-ubuntu-12_04   | ubuntu              | 12.04       | opscode-ubuntu-12.04 | thunr_chef_role_site::default |
+  | chef_role_site-ubuntu-12_04   | ubuntu              | 12.04       | opscode-ubuntu-12.04 | chef_role_site::default |
   And I have run Chef
 
 Scenario: System has bash

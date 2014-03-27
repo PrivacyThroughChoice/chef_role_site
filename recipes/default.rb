@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: thunr_chef_role_site
+# Cookbook Name:: chef_role_site
 # Recipe:: default
 #
-# Copyright (C) 2014 Burberry, LTD
+# Copyright (C) 2014 Privacy Through Choice
 # 
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
@@ -24,6 +24,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-include_recipe 'thunr_chef_app_db::default'
-include_recipe 'thunr_chef_app_rails::default'
-include_recipe 'thunr_chef_app_web::default'
+include_recipe 'chef_app_db::default'
+include_recipe 'chef_app_rails::default'
+include_recipe 'chef_app_web::default'

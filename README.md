@@ -1,4 +1,4 @@
-# thunr_chef_role_site cookbook
+# chef_role_site cookbook
 
 # Requirements
 
@@ -9,6 +9,3 @@
 # Recipes
 
 # Author
-
-Author:: Burberry, LTD (<fraser.scott@burberry.com
->)

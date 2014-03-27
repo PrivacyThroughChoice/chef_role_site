@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.hostname = "thunr_chef_role_site"
+  config.vm.hostname = "chef_role_site"
   config.vm.box = "opscode-ubuntu-12.04"
 config.vm.box_url = "https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04_provisionerless.box"
   config.vm.network :private_network, ip: "33.33.33.10"
@@ -17,7 +17,7 @@ config.vm.box_url = "https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_u
     }
 
     chef.run_list = [
-        "recipe[thunr_chef_role_site::default]"
+        "recipe[chef_role_site::default]"
     ]
   end
 end
